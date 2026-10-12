@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Lamp and Light Cafe</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="hd"><div class="wrap">
+  <a href="#top" class="logo">The Lamp <span>&amp;</span> Light</a>
+  <button id="burger" aria-label="Menu">☰</button>
+  <nav id="nav">
+    <a href="#about">About</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#visit">Visit</a>
+    <a class="btn gold" href="tel:9866699379">Order / Book</a>
+  </nav>
+</div></header>
+
+<section class="hero" id="top"><div class="wrap">
+  <div>
+    <p class="eyebrow">Devdaha · Khaireni</p>
+    <h1>Craft Coffee &amp; <em>Freshly Baked</em> Goods</h1>
+    <p>Step into a cozy corner where artisanal coffee, warm pastries and good company glow a little brighter. Open every day, from sunrise to evening.</p>
+    <div class="ctas">
+      <a class="btn gold" href="#menu">View Menu</a>
+      <a class="btn ghost" href="tel:9866699379">Order Online / Book a Table</a>
+    </div>
+  </div>
+  <div class="ph"><span>[INSERT HERO IMAGE HERE]</span><img src="hero.jpg" alt="The Lamp and Light Cafe" onerror="this.remove()"></div>
+</div></section>
+
+<section class="about" id="about"><div class="wrap split">
+  <div class="rv">
+    <p class="eyebrow">Our Story</p>
+    <h2>Brewed with care, shared with community</h2>
+    <p>The Lamp and Light Cafe began with a simple belief: a good cup of coffee can turn a quiet hour into a lasting memory. We source our beans ethically, roast and brew them with patience, and bake our pastries fresh each morning.</p>
+    <p>Whether you're catching up with friends, working on your laptop, or enjoying a slow breakfast, our doors are open and the lamp is always lit.</p>
+    <div class="badges">
+      <div class="badge"><i></i>100% Organic Beans</div>
+      <div class="badge"><i></i>Freshly Baked Daily</div>
+      <div class="badge"><i></i>Free High-Speed Wi-Fi</div>
+      <div class="badge"><i></i>Pet Friendly</div>
+    </div>
+  </div>
+  <div class="ph rv"><span>[INSERT INTERIOR CAFE IMAGE HERE]</span><img src="interior.jpg" alt="Cafe interior" onerror="this.remove()"></div>
+</div></section>
+
+<section class="menu" id="menu"><div class="wrap">
+  <p class="eyebrow">Menu Highlights</p>
+  <h2>Something good for every craving</h2>
+  <div class="tabs" id="tabs"></div>
+  <div class="mgrid">
+    <div class="items" id="items"></div>
+    <div class="side">
+      <div class="ph"><span>[INSERT MENU PHOTO 1]</span><img src="menu-1.jpg" alt="Signature item" onerror="this.remove()"></div>
+      <div class="ph"><span>[INSERT MENU PHOTO 2]</span><img src="menu-2.jpg" alt="Signature item" onerror="this.remove()"></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="gallery"><div class="wrap">
+  <p class="eyebrow">Gallery</p>
+  <h2>A glimpse of the glow</h2>
+  <p class="muted">Tap any photo to enlarge.</p>
+  <div class="gal" id="gal"></div>
+</div></section>
+
+<div id="lb"><button aria-label="Close">×</button><div class="ph box" id="lbc"></div></div>
+
+<section class="info" id="visit"><div class="wrap">
+  <p class="eyebrow">Visit Us</p>
+  <h2>Hours &amp; Location</h2>
+  <div class="cards">
+    <div class="card rv"><h3>Opening Hours</h3><table id="hours"></table></div>
+    <div class="card rv">
+      <h3>Find Us</h3>
+      <div class="mapbox"></div>
+      <p><b>Address:</b> Devdaha Khaireni, Ward No. 5</p>
+      <p><b>Phone:</b> <a class="lnk" href="tel:9866699379">9866699379</a></p>
+      <p><b>Facebook:</b> <a class="lnk" target="_blank" rel="noopener" href="https://www.facebook.com/p/The-lamp-and-light-cafe-100064086693380/">The Lamp and Light Cafe</a></p>
+      <a class="btn gold" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=The+Lamp+and+Light+Cafe+Devdaha+Khaireni">Open in Google Maps</a>
+    </div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div><h4>The Lamp &amp; Light Cafe</h4><p>Craft coffee, fresh bakes and a warm welcome in Devdaha.</p></div>
+    <div><h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#visit">Hours &amp; Location</a></li>
+        <li><a target="_blank" rel="noopener" href="https://www.facebook.com/p/The-lamp-and-light-cafe-100064086693380/">Facebook</a></li>
+      </ul>
+    </div>
+    <div><h4>Discounts &amp; Events</h4>
+      <p>Join our list for special offers and cafe news.</p>
+      <div class="nl"><input id="em" type="email" placeholder="Your email" aria-label="Email"><button class="btn gold" id="sub">Subscribe</button></div>
+      <p id="nlm" class="nlm"></p>
+    </div>
+  </div>
+  <div class="copy">© <span id="yr"></span> The Lamp and Light Cafe. All rights reserved.</div>
+</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
